@@ -1,6 +1,6 @@
 import React from "react";
 
-import { TextField, MenuItem } from "@material-ui/core";
+import { TextField, MenuItem } from "@mui/material";
 
 import BaseCard from "../../../components/BaseCard/BaseCard";
 

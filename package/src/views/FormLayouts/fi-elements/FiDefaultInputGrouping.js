@@ -6,7 +6,7 @@ import {
   ListSubheader,
   FormControl,
   Select,
-} from "@material-ui/core";
+} from "@mui/material";
 
 import BaseCard from "../../../components/BaseCard/BaseCard";
 

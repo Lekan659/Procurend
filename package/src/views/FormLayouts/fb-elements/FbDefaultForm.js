@@ -74,7 +74,7 @@ const FbDefaultForm = () => {
           sx={{
             padding: "15px 30px",
           }}
-          display="flex"
+          // display="flex"
           alignItems="center"
         >
           <Box flexGrow={1}>
@@ -92,6 +92,8 @@ const FbDefaultForm = () => {
         <CardContent
           sx={{
             padding: "30px",
+            display: "flex",
+            flexDirection: "column"
           }}
         >
           <form>
@@ -105,6 +107,7 @@ const FbDefaultForm = () => {
                 mb: 2,
               }}
             />
+
             <TextField
               id="email-text"
               label="Email"

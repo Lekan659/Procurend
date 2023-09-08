@@ -7,12 +7,18 @@ import SwitchCameraOutlinedIcon from '@mui/icons-material/SwitchCameraOutlined';
 import SwitchLeftOutlinedIcon from '@mui/icons-material/SwitchLeftOutlined';
 import DescriptionOutlinedIcon from '@mui/icons-material/DescriptionOutlined';
 import AutoAwesomeMosaicOutlinedIcon from '@mui/icons-material/AutoAwesomeMosaicOutlined';
+import { SupervisedUserCircleOutlined } from '@mui/icons-material';
 
 const Menuitems = [
   {
     title: "Dashboard",
     icon: DashboardOutlinedIcon,
     href: "/dashboards/dashboard1",
+  },
+  {
+    title: "User",
+    icon: SupervisedUserCircleOutlined,
+    href: "/user/viewusers",
   },
   {
     title: "Autocomplete",
